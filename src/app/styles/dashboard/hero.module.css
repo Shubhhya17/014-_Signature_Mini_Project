@@ -1,0 +1,215 @@
+.dashboardWrapper {
+    display: flex;
+    background: #f5f6fa;
+    height: 100vh;
+    font-family: sans-serif;
+  }
+  .wrapper-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+  }
+  /* Sidebar */
+  .sidebar {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-right: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+  
+  .userBox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    background: #d7d7ff;
+    border-radius: 50%;
+  }
+  
+  .menuList {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+  }
+  
+  .menuList li {
+    padding: 10px 0;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .active {
+    font-weight: bold;
+    color: #4b60ff;
+  }
+  
+  .logout {
+    background: transparent;
+    border: none;
+    color: #d33;
+    cursor: pointer;
+  }
+  
+  /* Main Content */
+  .mainContent {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .subText {
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  /* Cards */
+  .cardRow {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
+  }
+  
+  .cardIcon {
+    font-size: 26px;
+    color: #4b60ff;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+  }
+  
+  .card p {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  /* Table */
+  .table {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
+  }
+  
+  .table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .greenBadge {
+    padding: 5px 10px;
+    background: #d4f8d4;
+    color: #1a9d1a;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+  
+  .yellowBadge {
+    padding: 5px 10px;
+    background: #fff3c4;
+    color: #c59b00;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+  
+  .redBadge {
+    padding: 5px 10px;
+    background: #ffd1d1;
+    color: #d40000;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+  .dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 120px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    z-index: 10;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background: #f3f4f6;
+  }
+  /* Modal Background */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+  }
+  
+  /* Modal Box */
+  .modal-box {
+    width: 400px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  .modal-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  /* Preview Box */
+  .modal-preview {
+    height: 150px;
+    background: #f3f4f6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .close-btn {
+    background: #4f46e5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  .table, .table tr,.table td {
+    overflow: visible !important;
+    position: relative;
+  }
+  
